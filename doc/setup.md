@@ -37,13 +37,13 @@ weitere Informationen: https://angular.io/guide/setup-local
 <h2>Als PWA starten</h2>
 <ol>
 <li>ng build --prod --source-map</li>
-<li>http-server-spa dist/PFleaker-frontend/ index.html 8080</li>
+<li>http-server-spa dist/PFleaker-frontend/ index.html 4300</li>
 <li>"ipconfig" ausführen</li>
 <li>Auf dem Smartphone (muss sich im gleichen Netzwerk befinden) auf 
-die angegebene IP-Adresse auf Port 8080 verbinden bspw. 192.168.8.110:8080</li>
+die angegebene IP-Adresse auf Port 4300 verbinden bspw. 192.168.8.110:4300</li>
 </ol>
 <p>Initial muss auf dem Laptop/PC auf welchem entwickelt wird möglicherweise 
-noch der Port 8080 geöffnet werden: https://wiki.mcneel.com/de/zoo/window7firewall</p>
+noch der Port 4300 geöffnet werden: https://wiki.mcneel.com/de/zoo/window7firewall</p>
 
 
 <h2>Einrichtung InteliJ</h2>

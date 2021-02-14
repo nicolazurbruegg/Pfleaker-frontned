@@ -8,7 +8,7 @@ import { SwUpdate } from '@angular/service-worker';
 })
 export class AppComponent {
   title = 'PFleaker-frontend';
-  // http-server-spa dist/PFleaker-frontend/ index.html 8080
+  // http-server-spa dist/PFleaker-frontend/ index.html 4300
   constructor(private swUpdate: SwUpdate) {
     swUpdate.available.subscribe(event => {
       swUpdate.activateUpdate().then(() => document.location.reload())
